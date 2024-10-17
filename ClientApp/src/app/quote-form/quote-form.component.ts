@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, NgForm } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -11,24 +11,28 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./quote-form.component.css']
 })
 export class QuoteFormComponent {
+  
   city: string = 'Stockholm';
-  area: number = 0;
+  area: number | null = null;  // setting the field to null at the beginning of validation
   windowCleaning: boolean = false;
   balconyCleaning: boolean = false;
   trashRemoval: boolean = false;
 
   constructor(private router: Router) {}
 
-  onSubmit() {
-    this.router.navigate(['/results'], {
-      queryParams: {
-        city: this.city,
-        area: this.area,
-        windowCleaning: this.windowCleaning.toString(),  // Przekazujemy jako tekst
-        balconyCleaning: this.balconyCleaning.toString(),
-        trashRemoval: this.trashRemoval.toString()
-      }
-    });
+  onSubmit(form: NgForm) {
+    if (form.valid) {  // Checking whether the form is valid validation
+      this.router.navigate(['/results'], {
+        queryParams: {
+          city: this.city,
+          area: this.area,
+          windowCleaning: this.windowCleaning,
+          balconyCleaning: this.balconyCleaning,
+          trashRemoval: this.trashRemoval
+        }
+      });
+    }
   }
 }
+
 

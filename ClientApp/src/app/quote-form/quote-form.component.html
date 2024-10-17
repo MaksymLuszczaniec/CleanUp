@@ -1,14 +1,31 @@
 <h2>Flyttstädning Offert</h2>
-<form (ngSubmit)="onSubmit()">
+<form #form="ngForm" (ngSubmit)="onSubmit(form)">
+  
+  <!-- Stadsval -->
   <label for="city">Välj stad:</label>
-  <select id="city" [(ngModel)]="city" name="city">
+  <select id="city" [(ngModel)]="city" name="city" required>
     <option value="Stockholm">Stockholm</option>
     <option value="Uppsala">Uppsala</option>
   </select>
 
+  <!-- Antal kvadratmeter -->
   <label for="area">Kvadratmeter:</label>
-  <input type="number" id="area" [(ngModel)]="area" name="area" required />
+  <input
+    type="number"
+    id="area"
+    [(ngModel)]="area"
+    name="area"
+    required
+    min="1"
+    #areaInput="ngModel"
+  >
+  <!-- Felmeddelande för antal kvadratmeter -->
+  <div *ngIf="areaInput.invalid && (areaInput.dirty || areaInput.touched)">
+    <small *ngIf="areaInput.errors?.required">Antalet kvadratmeter krävs.</small>
+    <small *ngIf="areaInput.errors?.min">Antalet kvadratmeter ska vara positivt.</small>
+  </div>
 
+  <!-- Ytterligare alternativ -->
   <label>
     <input type="checkbox" [(ngModel)]="windowCleaning" name="windowCleaning" />
     Fönsterputs
@@ -24,6 +41,6 @@
     Bortforsling av skräp
   </label>
 
-  <button type="submit">Beräkna offert</button>
+  <!-- En skicka-knapp som är inaktiverad om formuläret är ogiltigt -->
+  <button type="submit" [disabled]="form.invalid">Beräkna offert</button>
 </form>
-

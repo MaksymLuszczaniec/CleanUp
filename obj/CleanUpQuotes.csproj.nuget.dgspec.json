@@ -1,0 +1,83 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\luszc_84e1edc\\Documents\\CleanUpQuotes\\CleanUpQuotes.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\luszc_84e1edc\\Documents\\CleanUpQuotes\\CleanUpQuotes.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\luszc_84e1edc\\Documents\\CleanUpQuotes\\CleanUpQuotes.csproj",
+        "projectName": "CleanUpQuotes",
+        "projectPath": "C:\\Users\\luszc_84e1edc\\Documents\\CleanUpQuotes\\CleanUpQuotes.csproj",
+        "packagesPath": "C:\\Users\\luszc_84e1edc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\luszc_84e1edc\\Documents\\CleanUpQuotes\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\luszc_84e1edc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.SpaProxy": {
+              "target": "Package",
+              "version": "[8.0.*, )"
+            },
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[8.0.*, )"
+            },
+            "Simplify.Web.Json": {
+              "target": "Package",
+              "version": "[2.3.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

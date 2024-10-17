@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "VoEQFBHaReSF0Kt5XYJVgluIPUTixivmwBsf6Cv704t4lHHIHMxDzZH+X3689ixrA9qW17pKkczm3FsLFEzxKw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\luszc_84e1edc\\Documents\\CleanUpQuotes\\CleanUpQuotes.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\luszc_84e1edc\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\8.0.10\\microsoft.aspnetcore.spaproxy.8.0.10.nupkg.sha512",
+    "C:\\Users\\luszc_84e1edc\\.nuget\\packages\\microsoft.aspnetcore.spaservices.extensions\\8.0.10\\microsoft.aspnetcore.spaservices.extensions.8.0.10.nupkg.sha512",
+    "C:\\Users\\luszc_84e1edc\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\luszc_84e1edc\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0\\microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\luszc_84e1edc\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\8.0.0\\microsoft.extensions.fileproviders.physical.8.0.0.nupkg.sha512",
+    "C:\\Users\\luszc_84e1edc\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\8.0.0\\microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512",
+    "C:\\Users\\luszc_84e1edc\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\luszc_84e1edc\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\luszc_84e1edc\\.nuget\\packages\\simplify.di\\4.2.10\\simplify.di.4.2.10.nupkg.sha512",
+    "C:\\Users\\luszc_84e1edc\\.nuget\\packages\\simplify.templates\\2.0.1\\simplify.templates.2.0.1.nupkg.sha512",
+    "C:\\Users\\luszc_84e1edc\\.nuget\\packages\\simplify.web\\4.8.1\\simplify.web.4.8.1.nupkg.sha512",
+    "C:\\Users\\luszc_84e1edc\\.nuget\\packages\\simplify.web.json\\2.3.1\\simplify.web.json.2.3.1.nupkg.sha512"
+  ],
+  "logs": []
+}

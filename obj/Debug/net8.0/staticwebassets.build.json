@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "1u0jsQ1in8SxU60YOAngEDuO4h3yW5tmlAKz/E0V4fI=",
+  "Source": "CleanUpQuotes",
+  "BasePath": "_content/CleanUpQuotes",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CleanUpQuotes\\wwwroot",
+      "Source": "CleanUpQuotes",
+      "ContentRoot": "C:\\Users\\luszc_84e1edc\\Documents\\CleanUpQuotes\\wwwroot\\",
+      "BasePath": "_content/CleanUpQuotes",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\luszc_84e1edc\\Documents\\CleanUpQuotes\\wwwroot\\favicon.ico",
+      "SourceId": "CleanUpQuotes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\luszc_84e1edc\\Documents\\CleanUpQuotes\\wwwroot\\",
+      "BasePath": "_content/CleanUpQuotes",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    }
+  ]
+}

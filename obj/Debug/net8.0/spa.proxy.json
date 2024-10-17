@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:5002",
+"RedirectUrl": "",
+"LaunchCommand": "npm start",
+"WorkingDirectory": "C:\\Users\\luszc_84e1edc\\Documents\\CleanUpQuotes\\ClientApp\\",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}

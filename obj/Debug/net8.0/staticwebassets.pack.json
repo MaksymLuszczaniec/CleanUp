@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\luszc_84e1edc\\Documents\\CleanUpQuotes\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CleanUpQuotes.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CleanUpQuotes.props",
+      "PackagePath": "build\\CleanUpQuotes.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CleanUpQuotes.props",
+      "PackagePath": "buildMultiTargeting\\CleanUpQuotes.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CleanUpQuotes.props",
+      "PackagePath": "buildTransitive\\CleanUpQuotes.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

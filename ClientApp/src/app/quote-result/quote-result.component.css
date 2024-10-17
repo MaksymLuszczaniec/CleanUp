@@ -1,6 +1,13 @@
+/* Centrering av resultatkomponenten */
 h2 {
+  text-align: center;
   color: #333;
-  margin-bottom: 15px;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 1.1rem;
+  margin: 10px 0;
 }
 
 ul {
@@ -10,4 +17,24 @@ ul {
 
 li {
   margin: 5px 0;
+  padding: 8px;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Färger för individuella tilläggselement */
+li:nth-child(1) { background-color: #e1f7d5; } /* Fönsterputs */
+li:nth-child(2) { background-color: #ffecb3; } /* Balkongstädning */
+li:nth-child(3) { background-color: #ffcdd2; } /* Bortforsling av skräp */
+
+/*Centrera hela komponenten */
+.component-wrapper {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
 }

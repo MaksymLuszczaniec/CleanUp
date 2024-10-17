@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CleanUpQuotes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f393e8dd3f81a972ae0588d4142cb0267a7ad60")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e183faa369b5e1a01f03f241e538b8ff71d35ba6")]
 [assembly: System.Reflection.AssemblyProductAttribute("CleanUpQuotes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CleanUpQuotes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

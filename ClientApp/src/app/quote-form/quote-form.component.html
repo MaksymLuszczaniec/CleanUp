@@ -1,1 +1,29 @@
-<p>quote-form works!</p>
+<h2>Flyttstädning Offert</h2>
+<form (ngSubmit)="onSubmit()">
+  <label for="city">Välj stad:</label>
+  <select id="city" [(ngModel)]="city" name="city">
+    <option value="Stockholm">Stockholm</option>
+    <option value="Uppsala">Uppsala</option>
+  </select>
+
+  <label for="area">Kvadratmeter:</label>
+  <input type="number" id="area" [(ngModel)]="area" name="area" required />
+
+  <label>
+    <input type="checkbox" [(ngModel)]="windowCleaning" name="windowCleaning" />
+    Fönsterputs
+  </label>
+
+  <label>
+    <input type="checkbox" [(ngModel)]="balconyCleaning" name="balconyCleaning" />
+    Balkongstädning
+  </label>
+
+  <label *ngIf="city === 'Uppsala'">
+    <input type="checkbox" [(ngModel)]="trashRemoval" name="trashRemoval" />
+    Bortforsling av skräp
+  </label>
+
+  <button type="submit">Beräkna offert</button>
+</form>
+

@@ -1,1 +1,10 @@
-<p>quote-result works!</p>
+<h2>Offert för {{ city }}</h2>
+<p><strong>Kvadratmeter:</strong> {{ area }}</p>
+<p><strong>Totalt pris:</strong> {{ totalCost }} kr</p>
+
+<p><strong>Mer:</strong></p>
+<ul>
+  <li *ngIf="windowCleaning">Fönsterputs: 300 kr</li>
+  <li *ngIf="balconyCleaning">Balkongstädning: 150 kr</li>
+  <li *ngIf="trashRemoval">Bortforsling av skräp: 400 kr</li>
+</ul>
